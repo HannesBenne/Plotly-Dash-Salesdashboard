@@ -1,0 +1,60 @@
+body{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.dashboard-wrapper{
+    background: rgb(245, 245, 245);
+    width: 1200px;
+    min-width: 1200px;
+}
+
+
+#header{
+    color:rgb(255, 255, 255);
+    margin:0.1%;
+    background:rgb(158, 0, 105);
+    text-align:center;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#select-year{
+    margin-top:8px;
+}
+
+
+#select-year label{
+    margin-right:3%;
+}
+
+#kpi-wrapper{
+    width:100%;
+}
+
+.kpi{
+    width: 16.45%;
+    height: 80px;
+    border: black;
+    background: rgb(236, 236, 236);
+    margin: 0.1%;
+    display: inline-block;
+    text-align: center;
+}
+
+.kpi-header{
+    
+    background: rgb(204, 204, 204);
+    height: 30px;
+    line-height: 30px;
+    padding:0;
+}
+
+.kpi-text{
+    height: 50px;
+    line-height: 50px;
+}
+
